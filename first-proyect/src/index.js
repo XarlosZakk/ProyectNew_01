@@ -16,6 +16,7 @@ root.render(
         direccion: "calle 14 no24",
         ciudad: "Barcelona",
         noCasa: "cas-3423",
+        codePostal: '090601'
       }}
     />
   </>
