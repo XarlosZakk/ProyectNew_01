@@ -19,5 +19,17 @@ root.render(
         codePostal: '090601'
       }}
     />
+    <Usuario
+      name="Ana"
+      amount={5000}
+      marrid={false}
+      points={[85, 90, 78]}
+      address={{
+        direccion: "calle 22 no12",
+        ciudad: "Madrid",
+        noCasa: "cas-1234",
+        codePostal: '28001'
+      }}
+    />
   </>
 );
