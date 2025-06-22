@@ -2,12 +2,18 @@ import React from "react";
 import ReactDom from "react-dom/client";
 import { Greeting, Usuario } from "./Greeting";
 import ProductModule, { Navbar } from "./productModule";
+import {Button} from "./Button";
 
 const root = ReactDom.createRoot(document.getElementById("root"));
 
 root.render(
   <>
-    <Usuario
+
+    <Button text='Click me' />
+    <Button text='Reload' name= 'Carlos' />
+    <Button text='Delete' />
+
+    {/* <Usuario
       name="Carlos"
       amount={3000}
       marrid={true}
@@ -16,8 +22,9 @@ root.render(
         direccion: "calle 14 no24",
         ciudad: "Barcelona",
         noCasa: "cas-3423",
-        codePostal: '090601'
+        codePostal: '090601',
       }}
+      llamar= {function (){alert("Hola Carlos")}}
     />
     <Usuario
       name="Ana"
@@ -30,6 +37,6 @@ root.render(
         noCasa: "cas-1234",
         codePostal: '28001'
       }}
-    />
+    /> */}
   </>
 );
