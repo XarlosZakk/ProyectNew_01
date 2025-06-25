@@ -4,11 +4,13 @@ import { Greeting, Usuario, CardPresent } from "./Greeting";
 import ProductModule, { Navbar } from "./productModule";
 import { Button } from "./Button";
 import {TaskCard} from "./task"
+import {Saludar} from './Accion'
 
 const root = ReactDom.createRoot(document.getElementById("root"));
 
 root.render(
   <>
-  <TaskCard/>
+  <TaskCard ready = {true}/>
+  <Saludar />
   </>
 );
