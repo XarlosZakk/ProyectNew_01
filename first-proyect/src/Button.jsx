@@ -1,13 +1,13 @@
 import PropTypes from "prop-types";
 
-export function Button({ text, name = "User" }) {
-  console.log(text);
-  if (!text) {
-    console.error("El texto es obligatorio");
-  }
-
+export function Button({ text, name = " " }) {
   return (
-    <button>
+    <button
+      onClick={function () {
+        console.log("Hola Mundo");
+        alert("Me llamaste?")
+      }}
+    >
       {text} - {name}
     </button>
   );
@@ -16,4 +16,3 @@ export function Button({ text, name = "User" }) {
 Button.propTypes = {
   text: PropTypes.string.isRequired,
 };
-
