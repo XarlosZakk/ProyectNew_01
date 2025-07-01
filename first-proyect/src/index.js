@@ -20,7 +20,7 @@ root.render(
     <Button text="hello" />
     <input onChange={handleChange} />
     
-    //!manejadores de eventos
+    
     <form
       onSubmit={(e) => {
         e.preventDefault();
