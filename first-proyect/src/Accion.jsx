@@ -1,7 +1,20 @@
 import { Component } from "react";
+import './acciones.css'
 
 export class Saludar extends Component {
   render() {
-    return <h1>Hello world</h1>;
+    return (
+      <div className="container">
+        <h1>Hola Mundo</h1>
+        <button
+          onClick={() => {
+            console.log("Hola Mundo");
+            alert("Me llamaste tu?");
+          }}
+        >
+          Saludar
+        </button>
+      </div>
+    );
   }
 }

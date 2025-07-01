@@ -13,6 +13,8 @@ export function Button({ text, name = " " }) {
   );
 }
 
+
+
 Button.propTypes = {
   text: PropTypes.string.isRequired,
 };
