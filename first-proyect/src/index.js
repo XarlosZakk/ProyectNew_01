@@ -6,6 +6,7 @@ import { Button } from "./Button";
 import { TaskCard } from "./task";
 import { Saludar } from "./Accion";
 import {Navegacion} from "./Navegacion";
+import {Posts} from "./Posts"
 
 const root = ReactDom.createRoot(document.getElementById("root"));
 
@@ -16,27 +17,6 @@ const handleChange = (e) => {
 
 root.render(
   <>
-    <TaskCard ready={true} />
-    <Saludar />
-    <Button text="hello" />
-    <input onChange={handleChange} />
-    
-    
-    <form
-      onSubmit={(e) => {
-        e.preventDefault();
-        alert("Formulario enviado");
-      }}
-    >
-      <label htmlFor="name">Nombre:</label>
-      <input type="text" id="name" name="name" />
-      <br />
-      <label htmlFor="email">Email:</label>
-      <input type="email" id="email" name="email" />
-      <br />
-      <button>Enviar</button>
-    </form>
-
-    <Navegacion/>
+  <Posts/>
   </>
 );
