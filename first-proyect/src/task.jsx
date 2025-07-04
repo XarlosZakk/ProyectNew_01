@@ -1,4 +1,4 @@
-import "./card.css";
+import "./Estilos/card.css";
 
 export function TaskCard({ ready }) {
   return (

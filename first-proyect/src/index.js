@@ -5,6 +5,7 @@ import ProductModule, { Navbar } from "./productModule";
 import { Button } from "./Button";
 import { TaskCard } from "./task";
 import { Saludar } from "./Accion";
+import {Navegacion} from "./Navegacion";
 
 const root = ReactDom.createRoot(document.getElementById("root"));
 
@@ -35,5 +36,7 @@ root.render(
       <br />
       <button>Enviar</button>
     </form>
+
+    <Navegacion/>
   </>
 );

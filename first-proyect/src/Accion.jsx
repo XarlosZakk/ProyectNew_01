@@ -1,5 +1,5 @@
 import { Component } from "react";
-import './acciones.css'
+import './Estilos/acciones.css'
 
 export class Saludar extends Component {
   render() {

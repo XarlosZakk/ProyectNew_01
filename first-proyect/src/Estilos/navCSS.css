@@ -1,0 +1,66 @@
+/* Estilos para el Nav de La web */
+.indice {
+    width: 100%;
+    height: 60px;
+    background-color: #9ac0c6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    color: rgb(183, 91, 91);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.titulo h1 {
+    margin: 0;
+    padding: 5px;
+}
+
+.MenuNav{
+    display: flex;
+    gap: 20px;
+}
+
+.MenuNav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.MenuNav ul li {
+    color: rgb(141, 56, 56);
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.MenuNav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.MenuNav ul li:hover {
+    color: rgb(247, 247, 247);
+}
+
+.Invertir{
+    background-color: #f7f7f7;
+    color: #333;
+    border: none;
+    padding: 3px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Invertir:hover{
+    color: whitesmoke;
+    background:rgba(0, 0, 1, 0.5);
+}
