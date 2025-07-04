@@ -18,5 +18,6 @@ const handleChange = (e) => {
 root.render(
   <>
   <Posts/>
+  <Navegacion/>
   </>
 );
